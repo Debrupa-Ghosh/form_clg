@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="form-box">
+    <h2>Personal Form</h2>
+
+    <form id="myForm">
+        <table border="1">
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="name" required></td>
+            </tr>
+
+            <tr>
+                <td>Age</td>
+                <td><input type="number" id="age" required></td>
+            </tr>
+
+            <tr>
+                <td>Sex</td>
+                <td>
+                    <select id="sex">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>DOB</td>
+                <td><input type="date" id="dob"></td>
+            </tr>
+
+            <tr>
+                <td>Height</td>
+                <td><input type="text" id="height"></td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td><textarea id="address"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Phone No</td>
+                <td><input type="tel" id="phone"></td>
+            </tr>
+
+            <tr>
+                <td>Favourite Color</td>
+                <td><input type="color" id="color"></td>
+            </tr>
+
+            <tr>
+                <td>My Photo</td>
+                <td><input type="file" id="photo"></td>
+            </tr>
+        </table>
+
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
